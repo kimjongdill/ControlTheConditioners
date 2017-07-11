@@ -24,7 +24,7 @@ float tempF = 0.0;
 #define networkSec "AES"
 
 // API Information
-#define API_KEY "znVFbew0g0"
+#define API_KEY "" //API Key here
 #define DELAY_NORMAL 300000
 #define DELAY_ERROR 1200000
 
@@ -43,7 +43,7 @@ int desFan;
 
 // Sending Temperature Information
 // API Information
-char* URL = "http://www.georgedill.net/AutomationAPI/6Hfs3T7d2n/";
+char* URL = ""; // URL for REST Interface
 // For Main room Thermostat
 String room = "main";
 
@@ -57,7 +57,7 @@ void getDesiredState(){
   digitalWrite(0, HIGH);
   // Open a connection object
   HTTPClient http;
-  http.begin("http://www.georgedill.net/AutomationAPI/znVFbew0g0");
+  http.begin(""); //URL for REST Interface
   // Post a get request to the website
   http.GET();
 
