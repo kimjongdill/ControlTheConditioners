@@ -105,7 +105,7 @@
                     
                     $username = "website";
                     $servername = "localhost";
-                    $password = "19qiajzn";
+                    $password = "password";
                     $dbname = "aircon";
                     
                     // Connect to the database
