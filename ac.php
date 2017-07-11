@@ -17,7 +17,7 @@
 					<h3>Main Unit</h3>
 <?php
 	
-	$resultjson = file_get_contents("http://localhost/AutomationAPI/0YVHRh0Usf/");
+	$resultjson = file_get_contents("my query");
 	
 	$result = json_Decode($resultjson);
 	
@@ -31,7 +31,7 @@
         $mainTemp = $result[1]->currTemp;
         
 	echo "
-					<form action='AutomationAPI/0YVHRh0Usf/' method='post'>";
+					<form action='my query' method='post'>";
         
         if($mainStatus == 1){
 
