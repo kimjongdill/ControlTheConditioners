@@ -63,11 +63,11 @@ def mineTweetText(rawText):
 		
 
 def twitterConnect():
-	key = "FdM7MZCXYNSuO9Q9oNe4FNa7F"
-	secret = "H4eNUNFuHMHlkAP5LKltUwWO7iaaB8Tt5PBkSTibqOmOB4cWQM"
-	accessTok = "896495791736541185-7QE5UQHCOzPRTKsZVNcNrqQsmocRpyk"
-	accessSec = "9N8XGDcGZxMdURhYqGRQXHkp8bOQ82MfmOSg466Ct9BOs"
-	ownerID = "896495791736541185"
+	key = "Your Key"
+	secret = "Your Secret"
+	accessTok = "Your Access Token"
+	accessSec = "Your access secret"
+	ownerID = "Your owner ID"
 	owner = "RealShittyRobot"	
 	
 	auth = tweepy.OAuthHandler(key, secret)
